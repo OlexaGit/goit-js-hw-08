@@ -10,7 +10,7 @@ const onPlay = function (e) {
   // data is an object containing properties specific to that event
 };
 
-player.on('play', throttle(onPlay, 1000));
+player.on('timeupdate', throttle(onPlay, 1000));
 
 const time = localStorage.getItem('videoplayer-current-time');
 console.log(time);
