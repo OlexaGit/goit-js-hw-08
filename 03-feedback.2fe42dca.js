@@ -1,0 +1,2 @@
+const e=document.querySelector(".feedback-form");console.log("hello"),e.addEventListener("submit",(function(e){console.log("hello");const l=e.currentTarget.elements;console.log(l);const o=l.email.value;console.log(o);const n=l.message.value;if(0===o.length||0===n.length)alert("Please fill in all fields");else{const e={email:o,message:n};console.log(e)}}));
+//# sourceMappingURL=03-feedback.2fe42dca.js.map
