@@ -1,2 +1,0 @@
-!function(){var e=document.querySelector(".feedback-form");console.log("hello"),e.addEventListener("submit",(function(l){l.preventDefault(),console.log("hello");var o=l.currentTarget.elements;console.log(o);var a=o.email.value;console.log(a);var n=o.message.value;if(0===a.length||0===n.length)alert("Please fill in all fields");else{var s={email:a,message:n};console.log(s),e.reset()}}))}();
-//# sourceMappingURL=03-feedback.77bf9595.js.map
