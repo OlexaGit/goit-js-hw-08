@@ -5,8 +5,7 @@ const inputElement = document.querySelector('input');
 const messageElement = document.querySelector('textarea');
 
 form.addEventListener('submit', onFormSubmit);
-inputElement.addEventListener('input', throttle(addStorageItemEmail, 500));
-messageElement.addEventListener('input', throttle(addStorageItemEmail, 500));
+form.addEventListener('input', throttle(addStorageItemEmail, 500));
 
 function addStorageItemEmail() {
   const emailValue = inputElement.value;
